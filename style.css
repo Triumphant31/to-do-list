@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #222;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #444;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+body.light-mode {
+    background-color: #f0f0f0;
+    color: #222;
+}
+
+body.light-mode li {
+    background: #ddd;
+}
+
+body.light-mode button {
+    color: #222;
+}
+li {
+    background: #444;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 25px; /* Increased radius for oval shape */
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+button {
+    padding: 8px 12px;
+    border-radius: 20px; /* Rounded buttons for consistency */
+    border: none;
+    cursor: pointer;
+}
+
+input {
+    padding: 10px;
+    border-radius: 25px; /* Smooth input field */
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #007bff; /* Change to a vibrant color */
+    color: white;
+    transform: scale(1.1); /* Slight zoom effect */
+}
+li {
+    background: #444;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 25px;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+li:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Soft shadow on hover */
+    transform: translateY(-3px); /* Lift effect */
+}
+input {
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:hover, input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Glow effect */
+}
+
